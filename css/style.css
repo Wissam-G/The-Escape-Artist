@@ -16,7 +16,7 @@
 
 /*navigation bar*/
 .navbar {
-  background:rgba(191, 191, 191, 0.8);
+  background:rgba(102, 102, 102, 0.7);
   height: 55px;
   border-style: none;
 }
@@ -25,35 +25,146 @@
   color:#fff;
   font-size: 20px;
   padding-top: 20px;
+  -webkit-transition-duration: 0.8s; 
+  transition-duration: 0.8s;
 }
 .navbar-inverse .navbar-nav li a:hover {
   font-family: 'Open Sans', sans-serif;
   color:#000;
   background-color: #fff;
-  -webkit-transition-duration: 0.8s; 
-  transition-duration: 0.8s;
   outline: none;
   border-radius: 20px;
 }
-.navbar-inverse .navbar-brand {
+
+.navbar-inverse .head {
   color:#fff;
   font-size: 20px;
   position: fixed;
   top:  -20px;
 }
-
+.navbar-inverse .navbar-brand {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  color: #fff;
+  font-size: 30px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  line-height: 26.4px;
+  position: fixed;
+  top: -20px;
+}
 .caption {
   width:100%;
-  bottom: 65px;
+  bottom: 75px;
   position: relative;
-  height: 65px;
-  background:rgba(191, 191, 191, 0.8);
+  height: 72px;
+  background:rgba(102, 102, 102, 0.7);
 }
 .caption h4 {
+  font-family: 'Oswald', sans-serif;
   font-size: 20px;
   color: #fff;
   -webkit-font-smoothing: antialiased;
+  letter-spacing: 1.5px;
   position: relative;
   top: 15px;
   padding-right: 20px;
+  padding-bottom: 10px;
+}
+.btn-default{
+  font-size: 25px;
+  background-color: #ff0000;
+  border: none;
+  color: white;
+  cursor: pointer;
+  z-index: 250;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  -webkit-transition-duration: 0.8s; 
+  transition-duration: 0.8s;
+}
+.btn-default:hover {
+  background-color: #cc0000;
+  box-shadow: 10px 10px 5px #888888;
+
+}
+.btn-default:focus {
+  color: white;
+  background-color: #ff0000;
+
+}
+
+@media only screen and (max-width : 750px) {
+.navbar {
+  height: 40px;
+}
+.navbar-inverse .navbar-collapse {
+  border-color: rgba(102, 102, 102, 0.7);;
+}
+.navbar-inverse .navbar-nav li a {
+  color:#fff;
+  font-size: 20px;
+  margin-right: 80px;
+}
+ .side-collapse-container{
+  width:100%;
+  position:relative;
+  left:0;
+  transition:left .4s;
+
+}
+.side-collapse-container.out{
+  left:200px;
+}
+.side-collapse {
+  background:rgba(102, 102, 102, 0.7);
+  top:50px;
+  bottom:0;
+  left:0;
+  width:200px;
+  position:fixed;
+  overflow:hidden;
+  border-color:rgba(102, 102, 102, 0.7);
+  transition:width .4s;
+}
+.side-collapse.in {
+  width:0;
+} 
+.navbar-inverse .navbar-brand {
+   left: 80px;
+   font-size: 25px;
+}
+.caption {
+  width:100%;
+  bottom: 30px;
+  position: relative;
+  height: 30px;
+  background:rgba(102, 102, 102, 0.7);
+}
+.caption h4 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 1.5px;
+  position: relative;
+  top: 0px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+.btn-default{
+  font-size: 20px;
+  background-color: #ff0000;
+  border: none;
+  color: white;
+  cursor: pointer;
+  z-index: 250;
+  position: absolute;
+  top: 5em;
+  transform: translateX(-50%) translateY(-50%);
+  -webkit-transition-duration: 0.8s; 
+  transition-duration: 0.8s;
+}  
 }
