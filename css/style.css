@@ -44,16 +44,17 @@
 
 }
 .navbar-inverse .navbar-brand {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  font-family: 'Oswald', sans-serif;
   color: #fff;
   font-size: 30px;
   font-style: normal;
   font-variant: normal;
-  font-weight: bold;
+  font-weight: 500;
   line-height: 26.4px;
   position: fixed;
   top: -20px;
   cursor: pointer;
+  letter-spacing: 2px;
 }
 .navbar-inverse .navbar-nav>.active>a, 
 .navbar-inverse .navbar-nav>.active>a:focus, 
@@ -78,6 +79,7 @@
   top: 15px;
   padding-right: 20px;
   padding-bottom: 10px;
+  letter-spacing: 1.5px;
 }
 .youtube{
   font-size: 25px;
@@ -103,7 +105,12 @@
   background-color: #ff0000;
 }
 .FirstSection {
-  height: 630px;
+  height: 620px;
+}
+@media only screen and (max-width : 1200px){
+ .FirstSection {
+  height: 555px;
+} 
 }
 .back-to-top {
     background: red;
@@ -116,21 +123,29 @@
     z-index: 200;
 }
 .quote {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Shadows Into Light Two', cursive;
   font-size: 20px;
+  font-weight: 300;
   color: #fff;
   -webkit-font-smoothing: antialiased;
   letter-spacing: 1px;
+  margin-right: 100px;
 }
 .team-member {
   text-align: center;
   margin-bottom: 50px;
+  padding-top: 100px;
 }
 .team-member img {
   margin: 0 auto;
-  border: 7px solid white;
+  height: 200px;
 }
 .team-member h4 {
+    font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 1px;
   margin-top: 25px;
   margin-bottom: 0;
   text-transform: none;
@@ -175,6 +190,13 @@ ul.social-buttons li a:active {
   color:#fff;
   font-size: 20px;
   margin-right: 80px;
+}
+.navbar-inverse .navbar-toggle {
+  border: none;
+}
+.navbar-inverse .navbar-toggle:hover {
+  border: none;
+  background-color: #cc0000;
 }
  .side-collapse-container{
   width:100%;
@@ -238,4 +260,13 @@ ul.social-buttons li a:active {
 .FirstSection {
   height: 190px;
 } 
+.quote {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 1px;
+  margin-right: 0px;
+}
 }
