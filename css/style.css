@@ -16,7 +16,7 @@
 
 /*navigation bar*/
 .navbar {
-  background:rgba(102, 102, 102, 0.7);
+  background:#670033;
   height: 55px;
   border-style: none;
 }
@@ -44,17 +44,16 @@
 
 }
 .navbar-inverse .navbar-brand {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #fff;
-  font-size: 30px;
+  font-size: 35px;
   font-style: normal;
   font-variant: normal;
-  font-weight: 500;
-  line-height: 26.4px;
+  font-weight: 600;
   position: fixed;
   top: -20px;
   cursor: pointer;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 .navbar-inverse .navbar-nav>.active>a, 
 .navbar-inverse .navbar-nav>.active>a:focus, 
@@ -67,10 +66,10 @@
   bottom: 75px;
   position: relative;
   height: 72px;
-  background:rgba(102, 102, 102, 0.7);
+  background:#670033;
 }
 .caption h4 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Shadows Into Light Two', cursive;
   font-size: 20px;
   color: #fff;
   -webkit-font-smoothing: antialiased;
@@ -83,7 +82,7 @@
 }
 .youtube{
   font-size: 25px;
-  background-color: #ff0000;
+  background-color: #FC0347;
   border: none;
   color: white;
   cursor: pointer;
@@ -96,7 +95,7 @@
   transition-duration: 0.8s;
 }
 .youtube:hover{
-  background-color: #cc0000;
+  background-color: #FC0347;
   box-shadow: 10px 10px 5px #888888;
 
 }
@@ -129,7 +128,8 @@
   color: #fff;
   -webkit-font-smoothing: antialiased;
   letter-spacing: 1px;
-  margin-right: 100px;
+  margin-right: 50px;
+  padding-bottom: 10px;
 }
 .team-member {
   text-align: center;
@@ -141,7 +141,7 @@
   height: 200px;
 }
 .team-member h4 {
-    font-family: 'Oswald', sans-serif;
+  font-family: 'Alegreya', serif;
   font-size: 20px;
   color: #fff;
   -webkit-font-smoothing: antialiased;
