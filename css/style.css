@@ -1,5 +1,4 @@
 @import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
-@import 'https://fonts.googleapis.com/css?family=Architects+Daughter:300';
 .header {
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -184,7 +183,7 @@ ul.social-buttons li a:active {
   height: 40px;
 }
 .navbar-inverse .navbar-collapse {
-  border-color: rgba(102, 102, 102, 0.7);;
+  border-color:#670033;
 }
 .navbar-inverse .navbar-nav li a {
   color:#fff;
@@ -196,7 +195,7 @@ ul.social-buttons li a:active {
 }
 .navbar-inverse .navbar-toggle:hover {
   border: none;
-  background-color: #cc0000;
+  background-color: #FC0347;
 }
  .side-collapse-container{
   width:100%;
@@ -209,21 +208,21 @@ ul.social-buttons li a:active {
   left:200px;
 }
 .side-collapse {
-  background:rgba(102, 102, 102, 0.7);
+  background:#670033;
   top:50px;
   bottom:0;
   left:0;
   width:200px;
   position:fixed;
   overflow:hidden;
-  border-color:rgba(102, 102, 102, 0.7);
+  border-color:#670033;
   transition:width .4s;
 }
 .side-collapse.in {
   width:0;
 } 
 .navbar-inverse .navbar-brand {
-   left: 80px;
+   left: 50px;
    font-size: 25px;
 }
 .caption {
@@ -231,7 +230,7 @@ ul.social-buttons li a:active {
   bottom: 30px;
   position: relative;
   height: 30px;
-  background:rgba(102, 102, 102, 0.7);
+  background:#670033;
 }
 .caption h4 {
   font-family: 'Architects Daughter', sans-serif;
@@ -241,6 +240,7 @@ ul.social-buttons li a:active {
   letter-spacing: 1.5px;
   position: relative;
   top: 0px;
+  right: 20px;
   padding-right: 20px;
   padding-bottom: 10px;
 }
