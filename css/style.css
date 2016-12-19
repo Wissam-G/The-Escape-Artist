@@ -62,9 +62,9 @@
 }
 .caption {
   width:100%;
-  bottom: 50px;
+  bottom: 30px;
   position: relative;
-  height: 55px;
+  height: 30px;
   background:#670033;
 }
 .caption h4 {
@@ -103,7 +103,11 @@
   background-color: #ff0000;
 }
 .FirstSection {
-  height: 620px;
+  height: 650px;
+}
+.SecondSection {
+  height: 800px;
+  background-color:#670033;
 }
 @media only screen and (max-width : 1200px){
  .FirstSection {
@@ -111,7 +115,7 @@
 } 
 }
 .back-to-top {
-    background: #b2b2b2;
+    background: #222222;
     cursor: pointer;
     position: fixed;
     bottom: 20px;
@@ -127,7 +131,7 @@
   color: #fff;
   -webkit-font-smoothing: antialiased;
   letter-spacing: 1px;
-  padding-bottom: 10px;
+
 }
 .team-member {
   text-align: center;
